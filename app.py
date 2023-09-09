@@ -14,7 +14,7 @@ def home():
 
 @app.route("/about")
 def about():
-    name = request.arg.get('name') if request.args.get('name') else "Hello World!" 
+    name = request.args.get('name') if request.args.get('name') else "Hello World!" 
     return render_template("about.html", aboutName=name)
 
 @app.route("/<name>")              
