@@ -1,12 +1,21 @@
+body {
+    height: 100vh;
+}
 h1, 
 p {
     width: fit-content;
     text-align: center;
 }
+p {
+    font-size: 18px;
+}
 .nav-bar-link:hover {
     text-decoration: underline;
 }
 .main-content-block {
+    height: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
+}
+.footer-thanks {
+    margin: 0;
 }
